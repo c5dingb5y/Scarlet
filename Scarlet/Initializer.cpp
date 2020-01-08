@@ -20,5 +20,3 @@ void SDL_System::Initializer::InitSdlImage() {
 void SDL_System::Initializer::InitSdlTtf() {
 	TTF_Init();
 }
-
-class SDL_System::Initializer SDL_System::systemInitalizer;

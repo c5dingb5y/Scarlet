@@ -7,12 +7,10 @@
 namespace SDL_System {
 	class Initializer {
 	public:
-		void InitAll();
+		static void InitAll();
 	private:
-		void InitSdl();
-		void InitSdlImage();
-		void InitSdlTtf();
+		static void InitSdl();
+		static void InitSdlImage();
+		static void InitSdlTtf();
 	};
-
-	extern class Initializer systemInitalizer;
 }

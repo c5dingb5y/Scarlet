@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(int argc, char* args[]) {
-	SDL_System::systemInitalizer.initEverything();
+	SDL_System::Initializer::InitAll();
 
 	return 0;
 }
