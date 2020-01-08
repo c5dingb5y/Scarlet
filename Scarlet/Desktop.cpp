@@ -2,7 +2,7 @@
 #include <iostream>
 
 /* Headers */
-#include "Initialize.h"
+#include "Initializer.h"
 #include "Error.h"
 
 using namespace std;

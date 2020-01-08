@@ -152,11 +152,11 @@
   <ItemGroup>
     <ClCompile Include="Desktop.cpp" />
     <ClCompile Include="Error.cpp" />
-    <ClCompile Include="Initialize.cpp" />
+    <ClCompile Include="Initializer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Error.h" />
-    <ClInclude Include="Initialize.h" />
+    <ClInclude Include="Initializer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

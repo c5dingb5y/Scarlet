@@ -24,18 +24,18 @@
     <ClCompile Include="Desktop.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Initialize.cpp">
+    <ClCompile Include="Error.cpp">
       <Filter>소스 파일\SDL_System</Filter>
     </ClCompile>
-    <ClCompile Include="Error.cpp">
+    <ClCompile Include="Initializer.cpp">
       <Filter>소스 파일\SDL_System</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Initialize.h">
+    <ClInclude Include="Error.h">
       <Filter>헤더 파일\SDL_System</Filter>
     </ClInclude>
-    <ClInclude Include="Error.h">
+    <ClInclude Include="Initializer.h">
       <Filter>헤더 파일\SDL_System</Filter>
     </ClInclude>
   </ItemGroup>
